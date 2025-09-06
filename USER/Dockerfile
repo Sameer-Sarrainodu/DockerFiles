@@ -3,3 +3,4 @@ RUN dnf install git -y
 RUN useradd sameer
 
 USER sameer
+CMD [ "sleep","1000" ]
